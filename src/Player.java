@@ -2,17 +2,15 @@
 public class Player {
 	
 	public static void main(String[] args) {
-		int strength = 10;
+		int year = 2023;
+		System.out.println("Hello World! It's " + year + "!");
 		
-		System.out.println("Player Strength: " + strength);
-		
-		Person tom = new Person();
+		Person tom = new Person("Tom", 225.3f);
 		tom.Walks();
 		
-		tom.Walks();
+		Person mike = new Person("Mike", 180.9f);
+		mike.Walks();
 		
-		tom.Walks();
-		tom.setHeight(7);
 	}
 		
 }
