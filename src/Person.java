@@ -14,9 +14,9 @@ public class Person {
 		}
 
 		// Constructor
-		public Person(String name, float weight) {
+		public Person(String name, float weight, float height) {
 			this.name = name;
-			this.setHeight(6);
+			this.height = height; // removed setter and use direct property access
 			this.weight = weight;
 		}
 		
