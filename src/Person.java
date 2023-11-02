@@ -1,11 +1,20 @@
 
 public class Person {
-	  	float height;
-		float weight;
+	  	private float height;
+	  	private float weight;
 		
+	  	// Getter and Setters
+		public float getHeight() {
+			return height;
+		}
+
+		public void setHeight(float height) {
+			this.height = height;
+		}
+
 		// Constructor
 		public Person() {
-			this.height = 6;
+			this.setHeight(6);
 			this.weight = 200;
 		}
 		

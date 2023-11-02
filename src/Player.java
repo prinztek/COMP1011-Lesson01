@@ -12,6 +12,7 @@ public class Player {
 		tom.Walks();
 		
 		tom.Walks();
+		tom.setHeight(7);
 	}
 		
 }
